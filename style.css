@@ -54,7 +54,7 @@ body {
   margin-bottom: 0px;
 }
 .bottom-border {
-  border-bottom: 3px solid rgb(196, 194, 194);
+  border-bottom: 2px solid rgb(196, 194, 194);
 }
 .feed-font {
   font-size: 20px;
@@ -92,4 +92,16 @@ body {
 }
 .weather-table img {
   width: 200px;
+}
+/**/
+/*letest news feed style*/
+.letest-news-style .news-title{
+  display: flex;
+justify-content: space-between;
+margin-bottom: 0px;
+border-bottom: 2px solid rgb(196, 194, 194);
+}
+.news-title p{
+  margin-bottom: 5px;
+  font-size: 20px;
 }
