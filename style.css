@@ -82,10 +82,14 @@ body {
   width: 255px;
 }
 /*weather chart style*/
-.weather-table{
+.weather-table {
   width: 100%;
   padding: 15px;
 }
-.weather-table th{
+.weather-table th,
+.weather-table td {
   text-align: center;
+}
+.weather-table img {
+  width: 200px;
 }
