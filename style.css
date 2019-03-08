@@ -62,13 +62,21 @@ body {
   padding: 15px;
 }
 /*Table style*/
-table{
+table {
   width: 123%;
   padding: 15px;
   opacity: 0.7;
 }
-td, th {
+td,
+th {
   text-align: left;
   font-size: 20px;
   padding: 15px;
+}
+#temperature {
+  position: relative;
+  display: flex;
+}
+#temperature > img {
+  width: 255px;
 }
