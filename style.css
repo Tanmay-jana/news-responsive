@@ -62,21 +62,30 @@ body {
   padding: 15px;
 }
 /*Table style*/
-table {
+.score-table {
   width: 123%;
   padding: 15px;
   opacity: 0.7;
 }
-td,
-th {
+.score-table td,
+.score-table th {
   text-align: left;
   font-size: 20px;
   padding: 15px;
 }
+/**/
 #temperature {
   position: relative;
   display: flex;
 }
 #temperature > img {
   width: 255px;
+}
+/*weather chart style*/
+.weather-table{
+  width: 100%;
+  padding: 15px;
+}
+.weather-table th{
+  text-align: center;
 }
