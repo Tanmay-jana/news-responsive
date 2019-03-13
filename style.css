@@ -14,7 +14,7 @@ p {
 /**/
 .heading-style {
   display: flex;
-  box-shadow: 0px 3px 1px gray;
+  box-shadow: 0px 6px 2px -2px gray;
 }
 .logo-image img {
   width: 100px;
