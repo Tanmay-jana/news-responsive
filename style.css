@@ -39,7 +39,7 @@ p {
 .cover img {
   object-fit: cover;
   position: relative;
-  height: auto;
+  height: 20em;
   width: 100%;
   display: block;
 }
@@ -87,7 +87,7 @@ p {
 
 .score-table td,
 .score-table th {
-  text-align: left;
+  text-align: center;
   font-size: 1em;
   padding: 15px;
 }
